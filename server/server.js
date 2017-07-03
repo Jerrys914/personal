@@ -11,7 +11,7 @@ app.get('/resume', (req,res)=> {
 app.get('/*', (req,res) => {
   res.sendFile(path.join(__dirname, '/../client/index.html'))
 })
-let port = process.env.port || 5000;
+let port = process.env.PORT || 5000;
 app.listen(port,()=>{
   console.log("Listening on port " + port);
 });
