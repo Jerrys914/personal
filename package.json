@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "webpack -w & nodemon server/server.js"
+    "start": "nodemon server/server.js"
   },
   "dependencies": {
     "babel-core": "^6.2.1",
